@@ -13,7 +13,7 @@ int floorNum(char* array){
 	return fl;
 }
 int main(){
-	int size = 9001;
+	int size = 9001; //want to make a new solution without hardcoded int
 	char* array = new char[size];
 	ifstream fin("input.txt");
 	int position = 0;
